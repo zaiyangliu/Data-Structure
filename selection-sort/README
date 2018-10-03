@@ -1,0 +1,1 @@
+selection sort satisfy list[0]<=list[1]<=...<=list[n-1].
