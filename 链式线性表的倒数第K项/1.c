@@ -33,5 +33,5 @@ int main(){
     printf("%d", Ptrk -> data);
   else
     printf("NULL");
-}
+}//
     
