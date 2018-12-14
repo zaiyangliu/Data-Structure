@@ -1,12 +1,9 @@
-#include <iostream>
-#include <cstdio>
-//#define initSize 100
-//#define increment 20
-//typedef int ElemType;
-//typedef struct{
-// ElemType *elem;
-// int maxSize, top;
-//}SeqStack;
+
+typedef int ElemType;
+typedef struct{
+  ElemType *elem;
+  int maxSize, top;
+}SeqStack;
 void InitStack(SeqStack &s);
 void Push(SeqStack &s, ElemType x);
 bool Pop(SeqStack &s, ElemType &x);

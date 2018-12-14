@@ -1,7 +1,7 @@
 #include<iostream>
 #include "SeqStack.h"
 using namespace std;
-//typedef int ElemType;
+
 int main(){
   SeqStack s;
   InitStack(s);

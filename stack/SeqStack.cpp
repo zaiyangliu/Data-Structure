@@ -2,11 +2,8 @@
 #include <cstdio>
 #include <iostream>
 #define initSize 100
-#define increment 20
-typedef struct{
-  ElemType *elem;
-  int maxSize, top;
-}SeqStack;
+#define increament 20
+
 using namespace std;
 void InitStack(SeqStack &s){
   s.elem = new ElemType[initSize];
@@ -62,8 +59,8 @@ bool StackFull(SeqStack &s){
   return s.top == s.maxSize;
 };
 
-int SeqStack(SeqStack &s){
-  return top + 1;
+int StackSize(SeqStack &s){
+  return s.top + 1;
 };
 
     
